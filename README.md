@@ -33,15 +33,16 @@ This is a Laravel 11 application. Follow these steps to set up and run the proje
    ``
    npm install
    ``
-5. Run database migrations:
+5. Copy .env.example file to .env and modify the database credential
+6. Run database migrations:
    ``
    php artisan migrate:fresh
    ``
-6. Run the vite development or build:
+7. Run the vite development or build:
    ``
    npm run build
    ``
-7. Finally run the application:
+8. Finally run the application:
    ``
    php artisan serve
    ``
