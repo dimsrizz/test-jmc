@@ -7,6 +7,42 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Laravel 11 Application
+
+This is a Laravel 11 application. Follow these steps to set up and run the project.
+
+## Prerequisites
+
+- PHP 8.2 or higher
+- Composer
+- Node.js and npm
+- MySQL
+
+## Installation
+
+1. Clone the repository:
+   ``
+   git clone https://github.com/dimsrizz/test-jmc.git
+   ``
+2. Navigate to the project directory
+3. Install PHP dependencies:
+   ``
+   composer install
+   ``
+4. Install JavaScript dependencies:
+   ``
+   npm install
+   ``
+5. Run database migrations:
+   ``
+   php artisan migrate:fresh
+   ``
+6. Finally run the application:
+   ``
+   php artisan serve
+   ``
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
