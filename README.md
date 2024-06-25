@@ -37,7 +37,11 @@ This is a Laravel 11 application. Follow these steps to set up and run the proje
    ``
    php artisan migrate:fresh
    ``
-6. Finally run the application:
+6. Run the vite development or build:
+   ``
+   npm run build
+   ``
+7. Finally run the application:
    ``
    php artisan serve
    ``
